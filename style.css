@@ -1,0 +1,92 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url('bg-registration-form-7.jpg');
+    overflow: hidden;
+}
+#container{
+    width: 1000px;
+    height: 550px;
+   /* background-color: #925ca3; */
+    margin: 20px auto;
+}
+#calculator{
+    width: 380px;
+    height: 550px;
+   /* background-color: burlywood; */
+    margin: 50px auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgb(67, 138, 219), 0 6px 20px 0 rgb(58, 46, 46);
+     background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+}
+#result{
+    height: 120px;
+  /*  background-color: azure; */
+}
+#history{
+      text-align: right;
+      height: 20px;
+      margin: 0 20px;
+      padding-top: 15px;
+      font-size: 20px;
+      color:rgb(58, 46, 46)
+
+}
+#output{
+    text-align: right;
+    height: 60px;
+    margin: 30px 20px;
+    font-size: 30px;
+    
+
+}
+#keyboard{
+    height: 400px;
+}
+.operator, .number, .empty{
+    width: 50px;
+    height: 50px;
+    margin: 15px 22px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+.number{
+    background-color: #bac7c5;
+}
+.empty{
+    opacity: 0;
+}
+.number, .operator{
+    cursor: pointer;
+}
+.operator:active, .number:active{
+    font-size: 13px;
+    background-color: #3C94CE;
+}
+.operator:focus, .number:focus{
+    outline: 0;
+    background-color: #3C94CE;
+}
+button:nth-child(4){
+    font-size: 22px;
+    background-color: #20b2aa;
+}
+button:nth-child(8){
+    font-size: 22px;
+    background-color: #f89165;
+}
+button:nth-child(12){
+    font-size: 22px;
+    background-color: #fd8282;
+}
+button:nth-child(16){
+    font-size: 22px;
+    background-color: #8080ff;
+}
+button:nth-child(20){
+    font-size: 22px;
+    background-color: #a454f0;
+}
